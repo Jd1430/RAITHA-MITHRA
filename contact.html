@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAITHA MITHRA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="background-image: url('bg1a.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;">
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- header section starts -->
+<header class="header">
+  <a><i class="menu material-icons"> menu </i></a>
+  <nav class="navbar">
+      <a href="home.html">home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">about</a>
+      <a href="contact.html">contact</a>
+  </nav>
+</header>
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  <h1 class="heading">get <span>in touch</span></h1>
+  <div class="col-container">
+    <div class="col">
+      <h2>FEEDBACK</h2><br/>
+      <input type="text" placeholder="your name" />
+      <input type="email" placeholder="your email" />
+      <input type="text" placeholder="your phone" />
+      <textarea name="" placeholder="write a message" id="" cols="30" rows="10"></textarea>
+      <button onclick="showAlert(this)">send messsage</button>
+      <script>
+        function showAlert(button) {
+            var productTitle = button.parentElement.querySelector('h2').textContent;
+            alert("THANK YOU FOR APPROACHING US,YOUR REQUEST HAS BEEN SENT AND BEEING VERIFIED");
+        }
+    </script>
+    </div>
+
+    <div class="col">
+      <h2>my contact details</h2>
+      <p >email</p>
+      <p>Contact via email: <a href="mailto:raithamithra@gmail.com">jayanthdevarajgowda@gmail.com</a></p>
+      <br />
+      <p>phone</p>
+      <p>Click to dial: <a href="tel:+91">+917411257611</a></p>
+      <br />
+      <p>Instagram:</p>
+      <p>Visit our Instagram profile: <a href="tel:+1234567890">https://www.instagram.com/in/raithamithra</a></p>
+      <br />
+    </div>
+  </div>
+</section>
+ <!-- contact section ends -->
+
+ 
