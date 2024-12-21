@@ -43,7 +43,6 @@
   body {
     background-color: var(--dark-bg);
   }
-
   
   section {
     padding: 5rem 9%;
@@ -263,26 +262,11 @@
   margin-top: -30px;
   margin-left:100px;
   font-size: 18px;
-  flex-wrap: wrap; /* Allows wrapping for small screens */
+ 
 }
 
 .col {
   flex: 0 0 45%;
-  margin-bottom: 20px; /* Add spacing between columns */
-}
-
-.contact-deatils{
-  flex: 0 0 45%;
-  margin-bottom: 20px; /* Add spacing between columns */
-  margin-top: 5px;
-}
-
-.contact-deatils p{
-  color: white;
-}
-
-.contact-deatils a{
-  color: white;
 }
 
 input,
@@ -303,8 +287,6 @@ button {
   cursor: pointer;
   font-size: 16px;
  }
-
- 
 
  /* footer section styling */
  .footer {
@@ -391,52 +373,7 @@ span i {
 
 /* Media query for responsiveness */
 @media (max-width: 768px) {
-  .col-container {
-    flex-direction: column; /* Stack columns vertically */
-    margin-left: 20px; /* Remove left margin for smaller screens */
-  }
-
-  .col h2{
-    margin-left: 140px; /* Remove left margin for smaller screens */
-  }
-
-  .contact-deatils h2{
-    margin-top: 20px;
-  }
-
-  input,
-  textarea {
-    width: 200%;
-    
-  }
   .col {
-    flex: 0 0 100%;
-  }
-
-  button {
-    background-color: #ff3366;
-    margin-right: 40px;
-  }
-
-  .home .hero-text {
-    font-size: 4rem;
-    color: var(--white);
-    font-weight: 200;
-    line-height: 1.2;
-  }
-
-  .portfolio .box-container .box .image {
-    height: 20rem;
-    overflow: hidden;
-    position: relative;
-  }
-  .header .navbar a {
-    font-size: 1.5rem;
-    color: var(--white);
-    padding: 0 2rem;
-    letter-spacing: 0.1rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin-left: -10px;
+      width: 100%;
   }
 }
