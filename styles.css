@@ -437,5 +437,13 @@ span i {
     overflow: hidden;
     position: relative;
   }
-  
+  .header .navbar a {
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 0 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: -10px;
+  }
 }
