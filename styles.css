@@ -43,6 +43,14 @@
   body {
     background-color: var(--dark-bg);
   }
+
+  body {
+    background: linear-gradient(135deg, #ff6a00, #00d2ff);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
   
   section {
     padding: 5rem 9%;
