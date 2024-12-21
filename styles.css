@@ -262,11 +262,26 @@
   margin-top: -30px;
   margin-left:100px;
   font-size: 18px;
- 
+  flex-wrap: wrap; /* Allows wrapping for small screens */
 }
 
 .col {
   flex: 0 0 45%;
+  margin-bottom: 20px; /* Add spacing between columns */
+}
+
+.contact-deatils{
+  flex: 0 0 45%;
+  margin-bottom: 20px; /* Add spacing between columns */
+  margin-top: 5px;
+}
+
+.contact-deatils p{
+  color: white;
+}
+
+.contact-deatils a{
+  color: white;
 }
 
 input,
@@ -287,6 +302,8 @@ button {
   cursor: pointer;
   font-size: 16px;
  }
+
+ 
 
  /* footer section styling */
  .footer {
@@ -373,8 +390,31 @@ span i {
 
 /* Media query for responsiveness */
 @media (max-width: 768px) {
+  .col-container {
+    flex-direction: column; /* Stack columns vertically */
+    margin-left: 20px; /* Remove left margin for smaller screens */
+  }
+
+  .col h2{
+    margin-left: 140px; /* Remove left margin for smaller screens */
+  }
+
+  .contact-deatils h2{
+    margin-top: 20px;
+  }
+
+  input,
+  textarea {
+    width: 200%;
+    
+  }
   .col {
-      width: 100%;
+    flex: 0 0 100%;
+  }
+
+  button {
+    background-color: #ff3366;
+    margin-right: 40px;
   }
 
   .home .hero-text {
@@ -389,6 +429,5 @@ span i {
     overflow: hidden;
     position: relative;
   }
-  
   
 }
