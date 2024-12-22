@@ -265,6 +265,17 @@
  
 }
 
+.contact-deatils {
+  color: white;
+}
+
+.contact-deatils a{
+  color: white;
+}
+.contact-deatils h2{
+  color: black;
+}
+
 .col {
   flex: 0 0 45%;
 }
@@ -379,7 +390,7 @@ span i {
   }
 
   .col h2{
-    margin-left: 140px; /* Remove left margin for smaller screens */
+    margin-left: 130px; /* Remove left margin for smaller screens */
   }
 
   .contact-deatils h2{
